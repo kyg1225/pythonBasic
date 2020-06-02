@@ -8,5 +8,12 @@ a_none = None
 
 #list
 days = ["Mon","Tue","Wed","Thur","Fri"]
+print('Original : ',days)
+print('T/F : ',"Mon" in days)
+print('Length : ',len(days))
 
-print("Mon" in days)
+days.append("Sat")
+print('Append :', days)
+
+days.reverse()
+print('Reverse : ',days)
